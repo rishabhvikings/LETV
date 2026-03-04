@@ -1557,7 +1557,7 @@ def main():
                 unsafe_allow_html=True)
     st.markdown('<p class="sub-header">AI-Enhanced Leadership Dashboard | LETV WAI Project</p>', 
                 unsafe_allow_html=True)
-    image_path = "/Users/rishabhsingh/Desktop/AIForensicDashboard/assets/krishna.jpg"
+    image_path = "krishna.jpg"
     if os.path.exists(image_path):
         st.image(
             image_path,
